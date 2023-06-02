@@ -77,7 +77,7 @@ input.onButtonPressed(Button.B, function () {
     }
     strip.setPixelColor(2, neopixel.colors(NeoPixelColors.Orange))
     strip.setPixelColor(1, neopixel.colors(NeoPixelColors.Orange))
-    strip.setPixelColor(2, neopixel.colors(NeoPixelColors.Orange))
+    strip.setPixelColor(0, neopixel.colors(NeoPixelColors.Orange))
     strip.show()
     basic.pause(500)
     strip.clear()
